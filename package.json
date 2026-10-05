@@ -1,0 +1,1 @@
+{"name": "smart-parking-system-root","private": true,"scripts": {"backend": "cd backend && npm run dev","frontend": "cd frontend && python -m http.server 8080"}}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Parking System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">SmartPark</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Parking Lots</a>
+        <a href="#">Reservations</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Real-time parking management</p>
+          <h1>Find a space faster and park smarter</h1>
+          <p class="subtitle">
+            Live occupancy tracking, smart reservations, and optimized parking decisions for cities, campuses, and malls.
+          </p>
+          <button id="refreshBtn">Refresh Availability</button>
+        </div>
+      </section>
+
+      <section class="stats" id="statsGrid"></section>
+
+      <section class="parking-grid">
+        <div class="card">
+          <h2>Parking Lots</h2>
+          <div id="lotList" class="lot-list"></div>
+        </div>
+
+        <div class="card">
+          <h2>Available Slots</h2>
+          <div id="slotList" class="slot-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
